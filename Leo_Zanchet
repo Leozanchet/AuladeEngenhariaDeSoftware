@@ -25,3 +25,7 @@ graph TD
     %% Finalização
     Join_Bar --> Fechar[Fechar Pedido]
     Fechar --> End((( )))
+
+    %% Estilização das caixas para ficarem arredondadas como na foto
+    classDef box rx:15,ry:15,fill:#f9f9f9,stroke:#333,stroke-width:1px
+    class Receber,Preencher,Entrega,Fatura,Pagamento,Fechar box
